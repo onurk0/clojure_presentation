@@ -23,7 +23,11 @@
 (defn birthday [day]
   (str "You are ", day " years old."))
 
+(defn square [a b]
+  (* a b))
+
 ;; call functions
 (println (greet user))
 (println (birthday ten))
+(println (square ten 11))
 
